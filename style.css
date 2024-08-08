@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+/* colors */
+.bg-light{ 
+  background-color:rgba(228, 176, 118, 0.1);
+}
+
+.primary-color{
+  color:rgb(255, 144, 14);
+}
+/* Dark 01 */
+.Dark-01{
+  color:#131313;
+}
+/* Dark 02 */
+.Dark-02{
+  color:#424242;
+}
+/* Dark 03 */
+.Dark-03{
+  color:#727272;
+}
+/* Dark 04 */
+.Dark-04{
+  color:#A1A1A1;
+}
+/* Dark 05 */
+.Dark-05{
+  color:#D0D0D0;
+}
+/* Dark 06 */
+.Dark-06{
+  color:#E7E7E7;
+}
+/* Dark 07 */
+.Dark-07{
+  color:#F3F3F3;
+}
+
+
+
+
+/* header styles */
+
+
+/* navbar related styles */
+.navbar{
+  justify-content: space-between;
+}
+
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 1.2 rem;
+}
+
+.navbar, .banner{
+  max-width: 1000px;
+  margin: 0 auto;
+}
